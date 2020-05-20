@@ -1,8 +1,8 @@
 package yeet.Grafikk;
 
 public class Font {
-    public static final Font STANDARD = new Font("/fonts/font2.png");
-    //public static final Font STANDARD = new Font("/fonts/font.png");
+    public static final Font STANDARD = new Font("/Fonter/font2.png");
+    //public static final Font STANDARD = new Font("/Fonter/font.png");
 
     private Bilde fontBilde;
     private int[] offsets;

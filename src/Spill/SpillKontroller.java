@@ -19,12 +19,12 @@ public class SpillKontroller extends AbstraktSpill {
 
     public SpillKontroller() {
         //bilde1 = new ImageTile("/wood.png", 16, 16);
-        bilde2 = new Bilde("/wood.png");
+        bilde2 = new Bilde("/hjerte.png");
         bilde2.setLysBlokk(Lys.FULL);
         bilde2.setAlpha(true);
         bilde3 = new BildeFlis("/test2.png", 16, 16);
         bilde3.setAlpha(true);
-        clip = new Lyd("/audio/minecraft.wav");
+        //clip = new Lyd("/audio/minecraft.wav");
         lys = new Lys(100, 0xff00ffff);
     }
 
